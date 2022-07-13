@@ -415,7 +415,7 @@ li > a :hover {
   }
   .navigation {
     height: auto;
-    /* position: relative; */
+    position: relative;
     padding: 1rem;
   }
 
@@ -443,6 +443,10 @@ li > a :hover {
   .main-container > div {
     width: 100%;
     padding: 1rem;
+  }
+
+  .basic-info{
+    box-sizing: border-box;
   }
   .basic-info p {
     padding-right: 4rem;
