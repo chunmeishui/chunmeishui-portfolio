@@ -100,6 +100,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   padding-left: 1rem;
+  box-sizing: border-box;
 }
 
 .main-container > div {
@@ -115,6 +116,7 @@
 }
 .main-container img {
   width: 90%;
+
   object-fit: cover;
   height: 550px;
   margin: 0 auto;
@@ -149,7 +151,7 @@
 }
 
 article {
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -373,6 +375,10 @@ li > a :hover {
     font-size: 1.5rem;
   }
 
+  article{
+    margin: 3rem 0;
+  }
+
   .navigation-list-container-mobile {
     display: flex;
     margin-right: 2rem;
@@ -419,11 +425,7 @@ li > a :hover {
     padding: 1rem;
   }
 
-  /* .navigation-list {
-    flex-direction: column;
-    text-align: center;
-    padding-left: 2rem;
-  } */
+
   .main-container {
     flex-direction: column-reverse;
   }
