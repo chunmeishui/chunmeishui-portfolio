@@ -140,13 +140,14 @@
   background-color: rgb(217, 229, 244);
   padding-top: 4rem;
 }
+
 .title {
   background-color: rgb(153, 192, 213);
   width: 500px;
   padding: 1rem;
   box-sizing: border-box;
-  /* padding-top: 2rem; */
 }
+
 article {
   padding: 2rem 4rem;
   display: flex;
@@ -225,18 +226,14 @@ li > a :hover {
 }
 
 .tech-list {
-  /* display: -webkit-flex;
-  display: -moz-box; */
   display: flex;
   -webkit-align-items: center;
   -moz-box-align: center;
   align-items: center;
   padding: 0;
   grid-gap: 8px;
-  gap: 8px;
   margin: 24px 0;
   width: 100%;
-  /* -webkit-flex-wrap: wrap; */
   flex-wrap: wrap;
 }
 
@@ -245,7 +242,6 @@ li > a :hover {
   background: #fff;
   border-radius: 999px;
   padding: 4px 8px;
-  /* -webkit-box-shadow: 0.8px 1.6px 1.6px hsl(0deg 0% 0% / 48%); */
   box-shadow: 0.8px 1.6px 1.6px hsl(0deg 0% 0% / 48%);
   font-size: 1.25rem;
 }
@@ -260,7 +256,6 @@ li > a :hover {
 #footer {
   color: #717981;
   display: flex;
-  /* background-color: white; */
   color: #909498;
   cursor: default;
   position: relative;
