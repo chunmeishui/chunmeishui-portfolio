@@ -368,6 +368,11 @@ li > a :hover {
 }
 
 @media (max-width: 840px) {
+
+  .header{
+    font-size: 1.5rem;
+  }
+
   .navigation-list-container-mobile {
     display: flex;
     margin-right: 2rem;
@@ -385,9 +390,9 @@ li > a :hover {
   }
 
   .navigation-logo {
+    margin-left: 0rem;
     width: 80px;
-    top: 0rem;
-    position: fixed;
+   
   }
   .navigation-list-display li {
     list-style-type: none;

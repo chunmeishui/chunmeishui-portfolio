@@ -9,12 +9,7 @@ export default function About() {
         <h1>Hi, I'm Chunmei.</h1>
         <h3>Web developer.</h3>
         <p>
-          Currently based in Copenhagen , Denmark . studying web development. I
-          have focused on HTML , CSS , Javascript , node.js , git/Github
-          ,storybook , MYSQL , Postman and React to start with, and continue to
-          study and work on private projects. I completed a bootcamp called Hack
-          Your Future, and graduated in June 2022. I am also learning Danish
-          language course.
+          Currently based in Copenhagen , Denmark. studying web development. I have focused on HTML , CSS , JavaScript , Node.js , git/Github ,Storybook , MYSQL , Postman and React to start with, and continue to study and work on private projects. I completed a bootcamp called Hack Your Future, and graduated in June 2022. I am also learning Danish language course.
           <br />
           <br />
           <br />
