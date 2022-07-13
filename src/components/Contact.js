@@ -3,6 +3,7 @@ import "../App.css";
 import Linkedin from "../images/linkedin.png";
 import GitHub from "../images/github.png";
 import Email from "../images/email.png";
+import Cv from "../images/chunmei-cv.pdf";
 
 export default function Contact() {
   return (
@@ -80,7 +81,7 @@ export default function Contact() {
       <div id="copyright">
         <p>
           {" "}
-          &copy; Hire Developer : <a href="./images/chunmei-cv.pdf">Chunmei</a>
+          &copy; Hire Developer : <a href={Cv}>Chunmei</a>
         </p>
       </div>
     </div>

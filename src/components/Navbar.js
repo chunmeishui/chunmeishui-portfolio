@@ -6,7 +6,6 @@ import "../App.css";
 
 export default function Navbar() {
   const [mobileMenue, setMobileMenue] = useState("none");
-  // const [click,setClick]= useState(false)
 
   const onHandleChangeClassName = () => {
     mobileMenue === "none"
