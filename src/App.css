@@ -114,6 +114,15 @@
   font-size: 1.25rem;
   color: WHITE;
 }
+
+ .basic-info a{
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+ }
+  .basic-info a:hover{
+    color: #18bfef;
+  }
 .main-container img {
   width: 90%;
 

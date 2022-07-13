@@ -14,10 +14,12 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navigation-container">
+    <nav className="navigation-container"  id="start">
       <div className="navigation">
         <div className="navigation-logo-container">
-          <img className="navigation-logo" src={PortfolioLogo} alt="logo" />
+          <a href="#start">
+            <img className="navigation-logo" src={PortfolioLogo} alt="logo" />
+          </a>
         </div>
         <div className="navigation-list-container">
           <ul className="navigation-list">
@@ -67,7 +69,7 @@ export default function Navbar() {
         <h2>Frontend Developer . Full Stack Developer</h2>
       </div>
       <header className="header">
-        HTML/CSS /Javascript/ Node.js/ React /Mysql ...
+        LEARNED COURSES: HTML/CSS /Javascript/ Node.js/ React /Mysql ...
       </header>
     </nav>
   );
