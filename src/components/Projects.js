@@ -43,7 +43,7 @@ export default function Projects() {
               <li className="tech-list-item">Swagger</li>
               <li className="tech-list-item">Storybook</li>
               <li className="tech-list-item">Postman</li>
-              <li className="tech-list-item">git</li>
+              <li className="tech-list-item">Git</li>
               <li className="tech-list-item">Github</li>
             </ul>
             <ul className="actions special">
@@ -75,7 +75,7 @@ export default function Projects() {
               <li className="tech-list-item">Heroku</li>
               <li className="tech-list-item">Knex</li>
               <li className="tech-list-item">Javascript</li>
-              <li className="tech-list-item">git</li>
+              <li className="tech-list-item">Git</li>
               <li className="tech-list-item">Github</li>
             </ul>
             <ul className="actions special">
@@ -119,7 +119,7 @@ export default function Projects() {
               <li className="tech-list-item">HTML</li>
               <li className="tech-list-item">CSS</li>
               <li className="tech-list-item">Javascript</li>
-              <li className="tech-list-item">git</li>
+              <li className="tech-list-item">Git</li>
               <li className="tech-list-item">Github</li>
             </ul>
             <ul className="actions special">
@@ -146,7 +146,7 @@ export default function Projects() {
               <li className="tech-list-item">HTML</li>
               <li className="tech-list-item">CSS</li>
               <li className="tech-list-item">Javascript</li>
-              <li className="tech-list-item">git</li>
+              <li className="tech-list-item">Git</li>
               <li className="tech-list-item">Github</li>
             </ul>
             <ul class="actions special">

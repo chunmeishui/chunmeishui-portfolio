@@ -24,7 +24,7 @@ export default function Navbar() {
         <div className="navigation-list-container">
           <ul className="navigation-list">
             <li>
-              <a href="#portfolio">Portofolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li>
               <a href="#about-me">About</a>
