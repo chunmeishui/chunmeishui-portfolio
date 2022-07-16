@@ -102,6 +102,18 @@ export default function Projects() {
         </article>
 
         <article className="todo-background">
+          <div className="faster-game-pic-container">
+            <a
+              href="https://luminous-brioche-d60328.netlify.app/"
+              class="image fit"
+            >
+              <img
+                id="meal-main-picture"
+                src={Todo}
+                alt="meals of restaurant"
+              />
+            </a>
+          </div>
           <div className="project-text">
             <header>
               <h2>Todo list</h2>
@@ -125,26 +137,9 @@ export default function Projects() {
               </li>
             </ul>
           </div>
-          <div className="faster-game-pic-container">
-            <a
-              href="https://luminous-brioche-d60328.netlify.app/"
-              class="image fit"
-            >
-              <img
-                id="meal-main-picture"
-                src={Todo}
-                alt="meals of restaurant"
-              />
-            </a>
-          </div>
         </article>
 
         <article className="weather-background">
-          <div>
-            <a href="https://htmlpreview.github.io/?https://github.com/chunmeishui/hyf-homework/blob/e0075377a3bc00cfb32886d39a707797ea5dd544/javascript/javascript3/week1/index.html">
-              <img src={Weather} alt="spices web " />
-            </a>
-          </div>
           <div className="project-text">
             <header>
               <h2>Weather app</h2>
@@ -170,8 +165,20 @@ export default function Projects() {
               </li>
             </ul>
           </div>
+          <div>
+            <a href="https://htmlpreview.github.io/?https://github.com/chunmeishui/hyf-homework/blob/e0075377a3bc00cfb32886d39a707797ea5dd544/javascript/javascript3/week1/index.html">
+              <img src={Weather} alt="spices web " />
+            </a>
+          </div>
         </article>
         <article className="faster-background">
+          <div className="faster-game-pic-container">
+            <a
+              href="https://htmlpreview.github.io/?https://github.com/chunmeishui/hyf-homework/blob/master/javascript/javascript2/week3/index.html"
+            >
+              <img src={Faster} alt="game " />
+            </a>
+          </div>
           <div className="project-text">
             <header>
               <h2>Faster presser</h2>
@@ -199,14 +206,6 @@ export default function Projects() {
                 </a>
               </li>
             </ul>
-          </div>
-          <div className="faster-game-pic-container">
-            <a
-              href="https://htmlpreview.github.io/?https://github.com/chunmeishui/hyf-homework/blob/master/javascript/javascript2/week3/index.html"
-              // class="image fit"
-            >
-              <img src={Faster} alt="game " />
-            </a>
           </div>
         </article>
       </section>
