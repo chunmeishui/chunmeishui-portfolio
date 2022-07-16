@@ -4,6 +4,7 @@ import Spices from "../images/pic02.png";
 import Meal from "../images/02.png";
 import Faster from "../images/04.png";
 import Weather from "../images/03.png";
+import Todo from "../images/todo.png";
 
 export default function Projects() {
   return (
@@ -99,6 +100,45 @@ export default function Projects() {
             </a>
           </div>
         </article>
+
+        <article className="todo-background">
+          <div className="project-text">
+            <header>
+              <h2>Todo list</h2>
+            </header>
+            <p>
+              This was my personal project from Hack Your Future. I used React
+              to do it. You can add todo ,after finish mark it as done.You can
+              also update todo and delete todo.
+            </p>
+
+            <ul className="tech-list">
+              <li className="tech-list-item">HTML</li>
+              <li className="tech-list-item">CSS</li>
+              <li className="tech-list-item">React</li>
+              <li className="tech-list-item">Git</li>
+              <li className="tech-list-item">Github</li>
+            </ul>
+            <ul className="actions special">
+              <li className="view-sourse-text">
+                <a href="https://github.com/chunmeishui/todo">View source</a>
+              </li>
+            </ul>
+          </div>
+          <div className="faster-game-pic-container">
+            <a
+              href="https://luminous-brioche-d60328.netlify.app/"
+              class="image fit"
+            >
+              <img
+                id="meal-main-picture"
+                src={Todo}
+                alt="meals of restaurant"
+              />
+            </a>
+          </div>
+        </article>
+
         <article className="weather-background">
           <div>
             <a href="https://htmlpreview.github.io/?https://github.com/chunmeishui/hyf-homework/blob/e0075377a3bc00cfb32886d39a707797ea5dd544/javascript/javascript3/week1/index.html">
