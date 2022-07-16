@@ -67,7 +67,6 @@ export default function Projects() {
               meal , add meal and delete meal. I developed the front end, then
               the database using MYSQL, and finally the routers.
             </p>
-
             <ul className="tech-list">
               <li className="tech-list-item">HTML</li>
               <li className="tech-list-item">CSS</li>
@@ -100,7 +99,6 @@ export default function Projects() {
             </a>
           </div>
         </article>
-
         <article className="todo-background">
           <div className="faster-game-pic-container">
             <a
@@ -123,7 +121,6 @@ export default function Projects() {
               to do it. You can add todo ,after finish mark it as done.You can
               also update todo and delete todo.
             </p>
-
             <ul className="tech-list">
               <li className="tech-list-item">HTML</li>
               <li className="tech-list-item">CSS</li>
@@ -173,9 +170,7 @@ export default function Projects() {
         </article>
         <article className="faster-background">
           <div className="faster-game-pic-container">
-            <a
-              href="https://htmlpreview.github.io/?https://github.com/chunmeishui/hyf-homework/blob/master/javascript/javascript2/week3/index.html"
-            >
+            <a href="https://htmlpreview.github.io/?https://github.com/chunmeishui/hyf-homework/blob/master/javascript/javascript2/week3/index.html">
               <img src={Faster} alt="game " />
             </a>
           </div>
