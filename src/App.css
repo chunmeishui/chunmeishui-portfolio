@@ -535,7 +535,7 @@ li > a :hover {
   }
 
   .meal-sharing-background,
-  .faster-background {
+  .weather-background{
     flex-direction: column-reverse;
   }
 
