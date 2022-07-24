@@ -19,7 +19,7 @@ export default function About() {
         <br />
         <p>
           Currently based in Copenhagen, Denmark. studying web development.I
-          have focused on HTML,CSS,JavaScript Node.js,Git/GitHub,Storybook ,MySQL,Postman and React to start with,and
+          have focused on HTML,CSS,JavaScript, Node.js,Git/GitHub,Storybook ,MySQL,Postman and React to start with,and
           continue to study and work on private projects.I completed a bootcamp called Hack Your Future,and graduated in June 2022.I am also
           learning Danish language course.
           <br />
